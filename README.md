@@ -2,17 +2,25 @@
 
 <div align="center">
   <h3>🎨 AI-Powered Virtual Fashion Experience</h3>
-  <p>Transform your photos into avatars and try on clothing virtually using Google's Gemini AI</p>
+
+  Check out my project here:- [Avatar Virtual Try-On Studio](https://avatar-virtual-try-on-713538752936.us-central1.run.app)
+
   
-  [![Deploy to Cloud Run](https://img.shields.io/badge/Deploy%20to-Cloud%20Run-blue?logo=google-cloud)](https://cloud.google.com/run)
+  [![Deployed using Cloud Run](https://img.shields.io/badge/Deploy%20to-Cloud%20Run-blue?logo=google-cloud)](https://cloud.google.com/run)
   [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://reactjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?logo=typescript)](https://www.typescriptlang.org/)
-  [![Gemini AI](https://img.shields.io/badge/Gemini-AI-orange?logo=google)](https://ai.google.dev/)
+
+  <img width="1920" height="1879" alt="screencapture-avatar-virtual-try-on-713538752936-us-central1-run-app-2025-09-14-14_21_37" src="https://github.com/user-attachments/assets/6e1426a7-3dfd-4e04-9aa2-a64166feb361" />
+  <img width="1920" height="1522" alt="screencapture-avatar-virtual-try-on-713538752936-us-central1-run-app-2025-09-14-14_21_49" src="https://github.com/user-attachments/assets/6cb155ce-ec5f-4162-ba9f-e1fc592968cb" />
+  <img width="1920" height="2101" alt="screencapture-avatar-virtual-try-on-713538752936-us-central1-run-app-2025-09-14-14_28_17" src="https://github.com/user-attachments/assets/81c92684-49d3-4618-99f5-e22d0230080f" />
+  <img width="1920" height="1357" alt="screencapture-avatar-virtual-try-on-713538752936-us-central1-run-app-2025-09-14-14_28_27" src="https://github.com/user-attachments/assets/4bd459f8-2b6d-413c-9020-a0b69ab0fe09" />
+
+  
 </div>
 
-## 🌟 Overview
+## ✨ Overview
 
-Avatar Virtual Try-On Studio is a cutting-edge web application that leverages Google's Gemini AI to create personalized avatars and enable virtual clothing try-ons. Upload your photo, generate a custom avatar in various styles, and see how different outfits look on you before making a purchase.
+Avatar Virtual Try-On Studio is a cutting-edge web application that leverages Google's Gemini 2.5 Flash Image Generation to create personalized avatars and enable virtual clothing try-ons. Upload your photo, generate a custom avatar in various styles, and see how different outfits look on you before making a purchase.
 
 ## ✨ Features
 
@@ -45,7 +53,7 @@ Avatar Virtual Try-On Studio is a cutting-edge web application that leverages Go
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Divya4879/Avatar-Virtual-Try-On-Studio.git
    cd avatar-virtual-try-on-studio
    ```
 
@@ -72,22 +80,8 @@ Avatar Virtual Try-On Studio is a cutting-edge web application that leverages Go
 
 ## ☁️ Cloud Run Deployment
 
-### Method 1: Using Deployment Script
 
-1. **Set environment variables**
-   ```bash
-   export PROJECT_ID="your-gcp-project-id"
-   export REGION="us-central1"
-   export GEMINI_API_KEY="your-gemini-api-key"
-   ```
-
-2. **Run deployment script**
-   ```bash
-   chmod +x deploy.sh
-   ./deploy.sh
-   ```
-
-### Method 2: Manual Deployment
+### Method 1: Manual Deployment
 
 1. **Build and push Docker image**
    ```bash
@@ -115,7 +109,7 @@ Avatar Virtual Try-On Studio is a cutting-edge web application that leverages Go
      --set-env-vars "PORT=8080,API_KEY=your-gemini-api-key"
    ```
 
-### Method 3: Using Service Configuration
+### Method 2: Using Service Configuration
 
 ```bash
 # Update PROJECT_ID in service.yaml
@@ -159,7 +153,7 @@ avatar-virtual-try-on-studio/
 └── deploy.sh            # Deployment script
 ```
 
-## 🎯 Usage
+## 🎯 User Flow
 
 1. **Upload Photo**: Start by uploading a clear, full-body photo
 2. **Choose Style**: Select your preferred avatar style
@@ -188,23 +182,9 @@ avatar-virtual-try-on-studio/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-For support and questions:
-- Create an issue in this repository
-- Check the [Google Cloud Run documentation](https://cloud.google.com/run/docs)
-- Review [Gemini AI documentation](https://ai.google.dev/docs)
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for powerful image generation
-- Google Cloud Run for scalable deployment
-- React and TypeScript communities
-- Tailwind CSS for beautiful styling
 
 ---
 
 <div align="center">
   <p>Made with ❤️ for the future of virtual fashion</p>
 </div>
-# Avatar-Virtual-Try-On-Studio
