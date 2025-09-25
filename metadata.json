@@ -1,0 +1,5 @@
+{
+  "name": "Avatar Virtual Try-On Studio",
+  "description": "Upload a photo to generate a stylized avatar, then virtually try on clothing from online stores by providing a link and your measurements. Save your favorite looks to a personal gallery.",
+  "requestFramePermissions": []
+}
