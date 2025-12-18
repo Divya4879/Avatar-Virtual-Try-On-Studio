@@ -3,10 +3,10 @@
 <div align="center">
   <h3>🎨 AI-Powered Virtual Fashion Experience</h3>
 
-  Check out my project here:- [Avatar Virtual Try-On Studio](https://avatar-virtual-try-on-713538752936.us-central1.run.app)
+
 
   
-  [![Deployed using Cloud Run](https://img.shields.io/badge/Deploy%20to-Cloud%20Run-blue?logo=google-cloud)](https://cloud.google.com/run)
+ 
   [![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://reactjs.org/)
   [![TypeScript](https://img.shields.io/badge/TypeScript-5.0.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 
